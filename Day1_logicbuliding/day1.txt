@@ -1,0 +1,22 @@
+Day 1 – Logic Building (Basics)
+
+Topics Covered:
+1. Variables and data types
+2. Input and output
+3. If-else conditions
+4. Loops (for / while)
+
+
+Practice Done:
+- Solved 10 basic logic-building questions
+- Focused on understanding problem statements
+- Practiced writing clean and readable code
+
+Learnings:
+- Improved confidence in basic syntax
+- Understood how to approach a problem step by step
+- Realized the importance of dry run before coding
+
+Next Plan:
+- Practice pattern-based problems
+- Revise loops and conditions
