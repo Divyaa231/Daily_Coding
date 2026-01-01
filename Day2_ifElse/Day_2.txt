@@ -15,7 +15,7 @@ Problems Solved:
 6. Find the sum of first N natural numbers//
 7. Print multiplication table of a number
 8. Count digits in a number
-9. Reverse a number using loop
+9. Reverse a number using loop//
 10. Check whether a number is palindrome
 
 Check if a number is even or odd.//
@@ -26,11 +26,11 @@ Find greatest of 2 numbers.//
 
 Find greatest of 3 numbers.//
 
-//Check if a year is leap year.
+//Check if a year is leap year.//
 
-Check if a character is vowel or consonant.
+Check if a character is vowel or consonant.//
 
-Check if a number is positive, negative, or zero.
+Check if a number is positive, negative, or zero.//
 
 Check eligibility to vote.
 
