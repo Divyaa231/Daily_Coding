@@ -1,0 +1,16 @@
+Day 3: Practiced more problems on If-Else and Loop logic in Java.
+
+Topics Covered:
+- Basic If-Else conditions
+- Nested If-Else
+- Logical operators
+- For loop
+- While loop
+- Problem-solving using conditional statements
+
+Outcome:
+- Improved understanding of control flow in Java
+- Gained confidence in solving logic-based problems
+- Strengthened foundation for DSA and competitive coding
+
+Status: Completed daily coding practice successfully.
