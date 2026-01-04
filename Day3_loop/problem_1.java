@@ -10,5 +10,12 @@ public class problem_1 {
         for (int i = 1; i <= n; i++) {
             System.out.println(i);
         }
+
+        //using while loop
+        int i=1;
+        while(i<=n){
+            System.out.print(i+" ");
+            i++;
+        }
     }
 }
