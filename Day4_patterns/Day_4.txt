@@ -1,0 +1,9 @@
+Day 4: Practiced Pattern-based problems in Java.
+
+Topics Covered:
+- Star patterns
+- Number patterns
+- Loop nesting logic
+- Understanding rows and columns in patterns
+
+Status: Solved multiple pattern problems to strengthen loop logic and visual thinking.

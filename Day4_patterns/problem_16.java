@@ -2,24 +2,20 @@ package Day4_patterns;
 
 import java.util.Scanner;
 
-public class problem_12 {
+public class problem_16 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter n: ");
         int n = sc.nextInt();
+        int a = 1;
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
-
-                if (i == (n/2) + 1 || j == (n/2) + 1) {
-                    System.out.print("* ");
-                } else {
-                    System.out.print("  ");
-                }
+            for (int j = 1; j <= i; j++) {
+                System.out.print(a + " ");
+                a = (a % 2) != 0 ? a + 1 : a;
+                a++;
             }
             System.out.println();
-
         }
 
     }
-
 }
