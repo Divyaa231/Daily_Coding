@@ -1,24 +1,28 @@
 package Day4_patterns;
-
 import java.util.Scanner;
-
-public class problem_19 {
-    // verticallly mirrored right angled triangle
+public class problem_26 {
 public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter n: ");
         int n = sc.nextInt();
-        
+        int nsp=n-1, nst=1;
+
         for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= n; j++) {
-		if(i+j>n){
-            System.out.print("* ");		
-		}
-		else{
+        for (int j = 1; j <= nsp; j++) {
             System.out.print("  ");
-		}
         }
-    System.out.println();
-    }
+        for(int j=1;j<=nst;j++){
+            System.out.print("* ");
+        }
+        System.out.println();
+        nsp--;
+        nst+=2;
+        }
+
+
+
+
+
+
     }
 }
