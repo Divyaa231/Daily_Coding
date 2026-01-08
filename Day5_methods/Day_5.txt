@@ -1,0 +1,27 @@
+Day: 5
+Focus: Methods in Java
+
+Key Learnings:
+- Method definition
+- Parameter passing
+- Return values
+
+solved problems:
+-Method to add two numbers.
+-Method to check even or odd.
+-Method to find factorial.
+-Method to check prime.
+-Method to find maximum of two numbers.
+-Method to print table of a number.
+-Method to reverse a number.
+-Method to check palindrome.
+-Method to calculate power (a^b).
+-Method to return sum of digits.
+
+Output:
+- Multiple method-based problems solved
+
+Status: Completed
+
+
+
