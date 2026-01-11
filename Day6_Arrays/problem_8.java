@@ -1,6 +1,7 @@
 package Day6_Arrays;
 import java.util.Scanner;
 public class problem_8 {
+    //linear search
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of array: ");
@@ -23,7 +24,7 @@ public class problem_8 {
             flag = true;
             break;
         }
-        if(flag==true){
+        if(flag){
             System.out.printf("%d is found in the array\n",x);
             flag = true;
         }
