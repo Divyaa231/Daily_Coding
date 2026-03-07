@@ -2,7 +2,7 @@ package Day6_Arrays;
 
 import java.util.Scanner;
 
-public class problem1 {
+public class problem_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of array: ");
