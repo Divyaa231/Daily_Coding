@@ -56,3 +56,26 @@ public class problem_25 {
         System.out.println("Indices are: " + result[0] + " " + result[1]);
     }
 }
+
+
+/*
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        int n = nums.length;
+        int [] solArr = new int[2];
+        for(int i =0;i<n;i++){
+            for(int j = i+1;j<n;j++){
+                if(nums[i]+nums[j]==target){
+                    solArr[0] = i;
+                    solArr[1] = j;
+                }
+            }
+            else{
+                return;
+            }
+        }
+        return solArr;
+    }
+}
+*/
+
