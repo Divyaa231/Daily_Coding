@@ -1,0 +1,129 @@
+1. What is Hashing?
+Hashing is a technique used to store and retrieve data quickly using key–value pairs. In Java, this is commonly implemented using HashMap from the java.util package. The main advantage is that searching or checking for an element can take O(1) time on average.
+
+2. Why Use Hashing in Array Problems?
+When solving array problems, hashing helps avoid nested loops. Instead of comparing every pair of elements (O(n^2)), we store information while traversing the array and perform instant lookups (O(1)). This reduces overall complexity to O(n).
+
+3. Key Idea Pattern
+While traversing an array:
+1. Calculate what value you need (for example: target - current element).
+2. Check if that value already exists in the HashMap.
+3. If yes → you found the answer.
+4. If not → store the current element and its index.
+
+4. Important HashMap Syntax (Java)
+Create HashMap:
+HashMap<Integer, Integer> map = new HashMap<>();
+
+Insert value:
+map.put(key, value);
+
+Check if key exists:
+map.containsKey(key);
+
+Get value:
+map.get(key);
+
+5. When to Use Hashing
+You should think about hashing when:
+- You need fast lookup.
+- The problem asks if an element already exists.
+- You need to find pairs like target − element.
+- Frequency counting is required.
+
+6. Common Problems Using Hashing
+- Two Sum
+- Subarray Sum Equals K
+- Longest Subarray with Sum K
+- Frequency of Elements
+- Anagram Problems
+
+7. Time Complexity
+Average case:
+Insert → O(1)
+Search → O(1)
+Overall algorithm with one traversal → O(n)
+
+8. Quick Reminder (When You Feel Stuck)
+Ask yourself:
+• Can I store something while traversing?
+• Can I convert searching into instant lookup?
+• Do I need to check if a complement value already exists?
+If yes → Use hashing.
+
+Example of Hashing
+Problem
+nums = [3, 2, 4]
+target = 6
+
+We need to find two numbers whose sum = 6.
+
+🧠 Thinking Using Hashing
+Step 1
+
+Current number = 3
+
+Required number:
+
+6 - 3 = 3
+
+Check HashMap:
+
+map.containsKey(3) → false
+
+Store it:
+
+map = {3 → 0}
+Step 2
+
+Current number = 2
+
+Required number:
+
+6 - 2 = 4
+
+Check map:
+
+map.containsKey(4) → false
+
+Store it:
+
+map = {3 → 0, 2 → 1}
+Step 3
+
+Current number = 4
+
+Required number:
+
+6 - 4 = 2
+
+Check map:
+
+map.containsKey(2) → true
+
+So pair found.
+
+Indices:
+
+[1,2]
+
+because
+
+nums[1] + nums[2] = 2 + 4 = 6
+⚡ What HashMap Stores
+number → index
+
+Example state:
+
+3 → 0
+2 → 1
+
+This allows instant lookup instead of searching the array again.
+
+
+Write this in your doc:
+
+For each element:
+1. Find complement = target − element
+2. If complement exists in HashMap → answer found
+3. Else store element with its index
